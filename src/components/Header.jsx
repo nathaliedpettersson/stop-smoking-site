@@ -1,6 +1,12 @@
+import styled from 'styled-components';
+
+const HeroSection = styled.h1`
+text-transform: uppercase;
+`;
+
 const Header = () => {
     return (
-        <h1>Rökfrigeneration.nu</h1>
+        <HeroSection>Rökfrigeneration.nu - En plattform för er</HeroSection>
     )
 }
 
