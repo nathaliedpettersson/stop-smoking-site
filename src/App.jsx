@@ -6,7 +6,6 @@ import Environment from './pages/Environment';
 import ExpensiveHabit from './pages/ExpensiveHabit';
 import Help from './pages/Help';
 import NotFresh from './pages/NotFresh';
-import ThePlatform from './pages/ThePlatform';
 
 const App = () => {
   return (
@@ -18,7 +17,6 @@ const App = () => {
     <Route path='/dyrt' element={<ExpensiveHabit />}/>
     <Route path='/hjalp' element={<Help />}/>
     <Route path='/intefresh' element={<NotFresh />}/>
-    <Route path='/plattform' element={<ThePlatform />}/>
   </Routes>
   );
 }

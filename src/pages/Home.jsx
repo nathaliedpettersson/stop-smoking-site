@@ -5,13 +5,15 @@ import Header from "../components/Header"
 const Container = styled.div`
 display: flex;
 flex-direction: column;
+background-color: #FF7514;
+height: 100vh;
+color: white;
 `;
 
 const Home = () => {
     return (
         <Container>
         <Header />
-        <LinkPage to="/plattform">En plattform för er</LinkPage>
         <LinkPage to="/intefresh">Inte fresssh</LinkPage>
         <LinkPage to="/dyrt">En dyr vana</LinkPage>
         <LinkPage to="/skadapakropp">Onödig skada på kroppen</LinkPage>
