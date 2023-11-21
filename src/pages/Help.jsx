@@ -1,10 +1,12 @@
 import BackButton from "../components/BackButton";
+import ImageContainer from "../components/ImageContainer";
+import Image from '../assets/hjalp.png';
 
 const Help = () => {
     return (
         <>
-        <div>Hjälp en vän</div>
         <BackButton />
+        <ImageContainer src={Image} alt="Help Powerpoint slide" />
         </>
     )
 }

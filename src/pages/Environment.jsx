@@ -1,10 +1,12 @@
 import BackButton from "../components/BackButton";
+import ImageContainer from "../components/ImageContainer";
+import Image from '../assets/miljo.png';
 
 const Environment = () => {
     return (
         <>
-        <div>Miljöpåverkan & barnarbete</div>
         <BackButton />
+        <ImageContainer src={Image} alt="Environment Powerpoint slide" />
         </>
     )
 }
