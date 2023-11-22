@@ -5,7 +5,8 @@ import Header from "../components/Header"
 const Container = styled.div`
 display: flex;
 flex-direction: column;
-background-color: #FF7514;
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
 height: 100vh;
 color: white;
 `;
