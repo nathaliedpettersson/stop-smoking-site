@@ -4,11 +4,17 @@ import styled from 'styled-components';
 const StyledLink = styled(Link)`
 width: 15vw;
 text-decoration: none;
-color: black;
 cursor: pointer;
-border: 2px solid black;
-padding: 0.3rem;
-margin: 0.7rem 0;
+color: black;
+border: 1.5px solid black;
+border-radius: 8px;
+padding: 0.5rem;
+margin: 0.7rem 0.7rem 0.7rem 2rem;
+font-size: 1.1rem;
+
+&:hover {
+  transform: scale(1.1)
+}
 `;
 
 const LinkPage = ({ to, children, ...rest }) => {
