@@ -7,7 +7,7 @@ text-align: center;
 
 const Header = () => {
     return (
-        <HeroSection>🚬 <i>Rökfrigeneration.nu - En plattform för er </i>🚬</HeroSection>
+        <HeroSection><i>Rökfrigeneration.nu - En plattform för er </i></HeroSection>
     )
 }
 
