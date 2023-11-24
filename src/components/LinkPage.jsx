@@ -11,6 +11,7 @@ border-radius: 8px;
 padding: 0.5rem;
 margin: 0.7rem 0.7rem 0.7rem 2rem;
 font-size: 1.1rem;
+font-weight: bold;
 
 &:hover {
   transform: scale(1.1)
